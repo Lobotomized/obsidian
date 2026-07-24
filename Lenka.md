@@ -8,4 +8,3 @@ For next meeting:
 2. SSE events and how to represent them in System design 
 3. When to use SSE and when to use Sockets for interfacing with an LLM
 4. When to use RAG
-5. 

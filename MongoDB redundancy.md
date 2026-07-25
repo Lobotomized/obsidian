@@ -1,4 +1,4 @@
-[[Lenka]]
+
 
 1.Primary Node: that takes all the writes. It records all changes in an operation log called oplog.
 2.  Secondary Nodes: Continuously replicate the oplog and do the operations within it . You can also use them for read requests if you want.

@@ -14,4 +14,4 @@ If you want guarantees that your writes are safe, you can consider them successf
 If you want speed you can consider them successful after the Primary log executes the commands.
 
 
-***Reads:*** You have a choice between consistency and 
+***Reads:*** You have a choice between consistency and efficiency. If you allow reads to Secondary nodes you might give different data to users, but it will allow you to deal with higher volume of data.

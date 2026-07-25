@@ -7,3 +7,7 @@
 
 # Fail over handling
 Members constantly ping each other to make sure they are alive. If the Primary node does not respond it is considered dead and an election occurs. The secondary node with the most recent oplog is chosen as the new Primary.
+
+You have a choice between speed and reliability:
+
+If you want 

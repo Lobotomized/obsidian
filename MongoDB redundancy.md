@@ -8,7 +8,7 @@
 # Fail over handling
 Members constantly ping each other to make sure they are alive. If the Primary node does not respond it is considered dead and an election occurs. The secondary node with the most recent oplog is chosen as the new Primary.
 
-You have a choice between speed and reliability:
+Writes: You have a choice between speed and reliability:
 
 If you want guarantees that your writes are safe, you can consider them successful only if the oplog is replicated  to one or one or more secondary nodes.
-If you want speed you can consider them successful after the Primary log exec
+If you want speed you can consider them successful after the Primary log executes the commands.

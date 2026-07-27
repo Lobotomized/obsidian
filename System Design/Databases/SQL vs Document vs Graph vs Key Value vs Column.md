@@ -10,3 +10,8 @@
 **Querying Ability:** You can query, index, and aggregate based on internal fields. You can give questions like "Give me all documents that have field with value X".
 ***Performance:*** Slightly higher latency than Key Value Pair
 
+
+
+(
+Add Relational DB's, Wide Column
+)

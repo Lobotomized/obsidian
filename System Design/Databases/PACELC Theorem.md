@@ -1,2 +1,2 @@
 
-CAP theorem only cares ab
+CAP theorem only cares about where databases fail

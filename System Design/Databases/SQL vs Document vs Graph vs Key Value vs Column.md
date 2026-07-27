@@ -7,3 +7,4 @@
 ***Examples***: Redis, DynamoDB
 
 ***Document*** - Structured JSON or JSON-like format. Each object (document) has unique ID. 
+**Querying Ability:** You can query, index, and aggregate based on internal fields. You can give questions like "Give me all documents that have field with value X".

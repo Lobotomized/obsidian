@@ -1,4 +1,4 @@
-[[DB Theory]]
+[[System Design]]
 
 ***Consistency*** - Every read will always receive either the most recent write or an error
 

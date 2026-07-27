@@ -13,5 +13,5 @@
 
 
 (
-Add Relational DB's, Wide Column
+Add Relational DB's, Wide Column DB's, Graph DB's
 )

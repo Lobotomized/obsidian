@@ -1,5 +1,7 @@
 [[DevSchool]]
 
-1. 
+Minimum Goal : 
+
+
+
 2.
-3.

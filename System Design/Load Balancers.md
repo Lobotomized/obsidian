@@ -11,4 +11,5 @@
 
 ## Examples
 ***Software*** : NGINX, HAPROXY
-**Hardware**: 
+**Hardware**: F5 load balancer, Citrix
+**Cloud load balancers** : 

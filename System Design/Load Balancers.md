@@ -12,4 +12,4 @@
 ## Examples
 ***Software*** : NGINX, HAPROXY
 **Hardware**: F5 load balancer, Citrix
-**Cloud load balancers** : 
+**Cloud load balancers** : AWS Elastic Load Balancer, Azures Load Balancer, Google Cloud Load Balancing

@@ -10,4 +10,5 @@
 
 
 ## Examples
-Nginx
+***Software*** : NGINX, HAPROXY
+**Hardware**: 

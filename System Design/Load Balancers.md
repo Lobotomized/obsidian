@@ -6,4 +6,4 @@
 4. **IP hash load balancer** : It hashes the ip of the client and consistently sends requests to the same server decided depending on the hashed version of the clients.  It might be useful for legacy apps that hold user sessions on the server, for apps that optimize cache per user such as video services or as a prevention of DDOS (limiting the amount of servers that might crash if you have a villain)
 5. **Weighted algorithms** : Combination of any of the previous 4 with different weights
 6. **Geographical algorithms** : Directing requests to the closest server.
-7. 
+7. **Consistent hashing** : 

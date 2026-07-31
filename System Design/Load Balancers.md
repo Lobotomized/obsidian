@@ -7,3 +7,7 @@
 5. **Weighted algorithms** : Combination of any of the previous 4 with different weights
 6. **Geographical algorithms** : Directing requests to the closest server.
 7. **Consistent hashing** : Creates a conceptual circle on which the servers are placed. This is accomplished by representing each link between two servers with particular part of a hash space. Whenever a request comes it is hashed (consistently for particular client) and is sent to the server closest to that hash. In that way if a server fails or a server is added the request will be directed to the new closest hash.
+
+
+## Examples
+Nginx

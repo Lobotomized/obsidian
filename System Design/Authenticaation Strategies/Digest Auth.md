@@ -1,2 +1,1 @@
-The client sends to the server 
-Authorizaiton: Digest username="username", realm="api", nonce="abc123"
+Since you need the hashed version of the request for authorization the Client must 

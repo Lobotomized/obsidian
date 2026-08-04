@@ -1,1 +1,1 @@
-The Client
+The Clients asks for a resource

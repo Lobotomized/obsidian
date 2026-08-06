@@ -10,3 +10,7 @@ Interview history:
 2. Java questions
 
 Recruiter Call:
+
+
+
+What  to Lea

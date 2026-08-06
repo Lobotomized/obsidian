@@ -10,3 +10,4 @@ Mid Level or even lower might be okay. As long as he accomplish a software engin
 Interview history:
 
 1. Synchronous and Asynchronous connections
+2. 

@@ -43,4 +43,5 @@ Client -> POST auth/login (with password and username) -> Server
 
 Server validates the token -> Returns JWT -> Client
 
+Client -> Token -> If the token is valid success otherwise unsuccess
 

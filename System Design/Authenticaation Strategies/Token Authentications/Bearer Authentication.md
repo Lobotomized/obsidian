@@ -1,5 +1,6 @@
 [[Authentications]]
 
-Bearer token means : Whoever has this token has access
+Bearer token means : Whoever has this token has access. JWT is the most popular type.
 
-Types of bearer tokens : JWT
+
+Client -> POST auth/login (with password and username) -> Server 

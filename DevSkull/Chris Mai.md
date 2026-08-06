@@ -13,4 +13,6 @@ Recruiter Call:
 
 
 
-What  to Lea
+What  to Learn:
+
+Sockets, GraphQL, SSE 

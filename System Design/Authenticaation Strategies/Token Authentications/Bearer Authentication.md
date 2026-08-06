@@ -4,3 +4,6 @@ Bearer token means : Whoever has this token has access. JWT is the most popular 
 
 
 Client -> POST auth/login (with password and username) -> Server 
+
+Server validates the token -> Returns JWT -> Client
+

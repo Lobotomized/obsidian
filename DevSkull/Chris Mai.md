@@ -15,4 +15,6 @@ Recruiter Call:
 
 What  to Learn:
 
-Sockets, GraphQL, SSE 
+1. Types of API's
+2. Query Parameters
+3. 

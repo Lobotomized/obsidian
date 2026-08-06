@@ -20,8 +20,27 @@ The server takes the received **Header** and **Payload** and runs them back thro
 
 $$\text{Calculated Signature} = \text{HMAC-SHA256}(\text{Header} + "." + \text{Payload}, \text{SecretKey})$$
 
+**3.3. Compare Signatures:**Integrity and origin check.
+
+The server compares its locally calculated signature with the signature attached to the incoming request:
+
+- **If they match:** The token was definitely issued by this server (or an authorized identity provider) and **nobody modified the payload** in transit.
+    
+- **If they do not match:** Either the secret key was wrong, or an attacker tampered with the payload (e.g., changing `user_123` to `admin`). The request is immediately rejected with a `401 Unauthorized` status
+    
+
+**4.4. Validate Expiration and Claims:**Business rule check.
+
+Once signature authenticity is confirmed, the server inspects the claims in the payload without needing a database:
+
+- Is the current time past the `exp` (expiration timestamp)?
+    
+- Is the `iss` (issuer) recognized?
+    
+- What is the user's ID (`sub`) or role (`role: "editor"`)?
 
 Client -> POST auth/login (with password and username) -> Server 
 
 Server validates the token -> Returns JWT -> Client
+
 

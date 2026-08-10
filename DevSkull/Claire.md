@@ -1,3 +1,2 @@
-1. 150k $ 
-Java, SpringBoot, PostgreSQL 
-
+150k $ 
+Java, SpringBoot, PostgreSQL

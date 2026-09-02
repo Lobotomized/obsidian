@@ -2,4 +2,4 @@
 
 
 10 years C# .NET
-Transformed to Angular GraphQL, 
+Transformed to Angular GraphQL

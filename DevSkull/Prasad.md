@@ -2,4 +2,4 @@
 10 years C# .NET
 Transformed to Angular GraphQL
 
-Based : Chicago
+Targeting FAANG  or Tier 1

@@ -6,4 +6,4 @@
 3. VEX - https://careers.wexinc.com/us/en/job/R21769/Staff-Software-Engineer-Backend-APIs  
 
 
-VEX'es interview 
+Harpers interview on AI focused design discussion

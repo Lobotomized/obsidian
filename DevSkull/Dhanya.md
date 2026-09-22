@@ -1,2 +1,3 @@
 
-Do a social engineering manager interview
+1. Founding Engineer with a colleague
+2. 
